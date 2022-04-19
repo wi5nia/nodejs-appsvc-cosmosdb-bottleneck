@@ -13,7 +13,7 @@ variables:
   webAppName: 'azloadtestpipelinetomw'
   serviceConnection: 'AzureLoadTestConnection'
   azureSubscriptionId: 'ddc73f81-d8a4-479e-9866-36a89bafca74'
-  loadTestResource: 'MAUGAzureLoadTestingDemo'
+  loadTestResource: 'MAUGAzureLoadTestingDemoCICD'
   loadTestResourceGroup: 'maugazltrg'
   location: 'EAST US'
 
