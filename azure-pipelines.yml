@@ -148,6 +148,9 @@ stages:
         loadTestConfigFile: 'SampleApp.yaml'
         resourceGroup: $(loadTestResourceGroup)
         loadTestResource: $(loadTestResource)
+        failureCriteria: 
+          - avg(response_time_ms) > 5000
+          - percentage(error) > 20
         env: |
           [
             {
